@@ -74,7 +74,8 @@ ejemplo de estructuras posibles.
 
   o	Está constituido por una colección de pares de nombre y valor o por una lista ordenaad de valores. Cada elemento u objeto comienza por una llave y termina con otra. Cada nombre está seguido de dos puntos y los elementos que están en la misma rama del árbol están separadaos por coma.
   
-  oEjemplo:  
+  o Ejemplo:  
+  ![JSON](https://user-images.githubusercontent.com/84425580/118745657-3e5fe880-b81c-11eb-92b3-83e8bedd6a26.PNG)
 
 •	XML 
 
@@ -82,7 +83,11 @@ ejemplo de estructuras posibles.
 
   o	Para diseñar lenguajes de marcado, que permite definir etiquetas personalizadas para descripción y organización de datos. Representa información estructurada en la web, de modo que esta información puede ser almacenada, transmitida, procesada, visualizada e impresa, por diversos tipos de aplicaciones y dipositivos.
 
-  o	Ejemplos:
+  o   Ejemplos:
+  
+  ![XML1](https://user-images.githubusercontent.com/84425580/118745698-5cc5e400-b81c-11eb-8755-85d97d64df94.PNG)
+  
+  ![XML2](https://user-images.githubusercontent.com/84425580/118745789-98f94480-b81c-11eb-8123-42251a1fe06a.jpg)
 
 
 9.	Explicar brevemente el estándar SOAP
