@@ -139,6 +139,22 @@ https://reclutamiento-14cf7.firebaseio.com/personas.json
 
 Gracias el request POST que se realizó en el punto 2, mi información ya aparece en la base de datos al volver a ejecutar el request GET a la URL señalada.
 
+### Ejercicio 4
+
+Realizar los siguientes módulos de Trailhead:
+
+• Fundamento de la plataforma Salesforce
+
+• Fundamentos de Apex y .NET
+
+• Modelado de datos
+
+• Fundamentos y base de datos de Apex
+
+• Desencadenadores de Apex
+
+Liga de Trailhead: https://trailblazer.me/id/marianaperez
+
 
 
 
