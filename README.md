@@ -286,6 +286,102 @@ Salesforce:
 ### Ejercicio 6
 
 ### Ejercicio 7
+Responder las siguientes preguntas brevemente sobre:
+Soluciones de Salesforce
+A.	¿Qué es Salesforce?
+Solución de gestión de relaciones con clientes que una une empresas y clientes. Es una plataforma relacionada al conjutno de prácticas, estrategias de negocio y tecnologías enficadas en la relación con el cliente. Esta brinda a todos sus departamentos, una vista única y compartida de cada cliente
+
+B.	¿Qué es Sales Cloud?
+Software de ventas. Administra leads (clientes potenciales) monitorea resultados y automatiza procesos de ventas con facilidad. Potencia a los representates de ventas spara generar más negocios y más rápido.
+
+C.	¿Qué es Service Cloud?
+Soluciones de software de servicio al cliente. Perimite que los agentes se conectetn con los clientes para ayudarlos a solucionar los problemas de una manera eficaz. Este sostware puede ayudar a las compañías a optimizar los procesos y las llamadas del equipo de atenión al cliente.
+
+D.	¿Qué es Health Cloud?
+Softeare el cual proporciona servicios de atención médica, el cual le permite al usuario interactuar más profundamente con su información e historial, a través de cualquier dispositivo.
+
+E.	¿Qué es Marketing Cloud?
+Solución de gestión de campañas de marketing, mediante distintas formas, como son redes sociales o mensajes de email
+Funcionalidades de Salesforce
+
+A.	¿Qué es un RecordType?
+Determinan los procesos de negocio, los formatos de página y los valores de lista de selección a los que los usuarios tienen acceso. 
+
+B.	¿Qué es un ReportType?
+
+C.	¿Qué es un Page Layout?
+
+D.	¿Qué es un Compact Layout?
+
+
+E.	¿Qué es un Perfil?
+
+F.	¿Qué es un Rol?
+
+
+G.	¿Qué es un Validation Rule?
+
+H.	¿Qué diferencia hay entre una relación Master Detail y Lookup?
+
+
+I.	¿Qué es un Sandbox?
+
+J.	¿Que es un ChangeSet?
+
+
+K.	¿Para qué sirve el import Wizard de Salesforce?
+
+L.	¿Para qué sirve la funcionalidad Web to Lead?
+
+
+M.	¿Para qué sirve la funcionalidad Web to Case?
+
+N.	¿Para qué sirve la funcionalidad Omnichannel?
+
+
+O.	¿Para qué sirve la funcionalidad Chatter?
+
+Conceptos generales
+A.	¿Qué significa SaaS? ¿Salesforce es Saas?
+Software as a Service. Es una forma de disponer de software de tecnología por medio de Internet, sin la necesidad de instalar, mantener y actualizar hardwares o softwares, solo es neceesaria su conexión a Internet. Saleforce es un ejemplo de Saas.
+
+B.	¿Que significa que una solución sea Cloud?
+La información se aloja en servidores externos a los de la empresa a los que se puede acceder en cualquier momento mediante el Internet. Software estandarizado que se configura en función de las necesidades del cliente.
+
+C.	¿Que significa que una solución sea On-Premise?
+Sistemas que son instalados en los servidores y dispositivos locales en la propia empresa. Lo cual permite tener aceso físico a la infomación y control directo a la configuración manejo y seguridad de esos datos
+
+D.	¿Que es un pipeline de ventas?
+Mapa de actividades diarias, donde se muestra cada una de las etapas del proceso de ventas en alguna empresa. Este va desde que el cliente lo recibe hasta el cierre del negocio.
+
+E.	¿Que es un funnel de ventas?
+Sistema para atraer usuarios, convertirlos en leads para finalmente transformarlos en clientes dentro de la empresa. Este proceso sirve para generar confianza con los clientes potenciales.
+
+F.	¿Qué significa Customer Experience?
+Hace referencia a la experiencia basada en las interacciones que el cliente vivió dentro de una empresa.  Estos pueden ser observaciones tanto positivas como negativas
+
+G.	¿Qué significa omnicanalidad?
+Forma de comunicación utilizado por las empresas para tener una comunicación más eficiente con los clientes. Se busca mantener una relación con los clientes, en donde se pueda ir adaptando al medio que mejor le convenga  
+
+H.	¿Qué significa que un negocio sea B2B?
+Business yo business. Modelos de negocio en los que las transacciones de bienes o la prestación de servicios se producen entre dos empresas, por lo tanto, se relaciona principalemte con el comercio mayorista 
+
+I.	¿Qué significa que un negocio sea B2C?
+Business to Consumer. Hace referencia a empresas que ofrecen productos o servicios a personas. Está orientado a destacar los beneficios personales que aporta el producto a los consumidores.
+
+J.	¿Qué es un KPI?
+Key Performance Indicator. Dato que nos sirve para tomar decisiones. Manera de medir el desempeño de las empresas, unidades de negocios, proyectos o personal en relación con sus metas y objetivos dentro de la empresa
+
+K.	¿Qué es una API y en qué se diferencia de una Rest API?
+
+L.	¿Qué es un Proceso Batch?
+
+Ejecución de un programa, sin la necesidad de la supervisión de algún usuario.
+
+M.	¿Qué es Kanban?
+Metodología para un sistema de producción efectivo y eficiente, su objetivo principal el gestionar de manera general como se van completando las tareas.
+
+N.	¿Qué es un ERP? ¿Salesforce es un ERP?
 
 
 
