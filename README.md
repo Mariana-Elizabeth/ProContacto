@@ -61,7 +61,8 @@ devueltos?**
 
 **6.	¿Cómo se envía data en un Get y cómo en un POST?**
 
-
+   •	Con Get, se envian a través de una URL. Con POST se envian de una forma en la que el usuario no puede ver los datos
+   
 **7.	¿Qué verbo http utiliza el navegador cuando accedemos a una página?**
 
 •	Get
@@ -110,7 +111,7 @@ ejemplo de estructuras posibles.**
 
 •	Un componente es el “HTTP Status Code”, que le informa al cliente o consumidos del API qué debe hacer con la respuesta recibida.
 
-11.	¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?
+**11.	¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**
 
 •	Los HTTP headers son la parte central de los HTTP requests y responses, y transmiten información acerca del navegador del cliente, de la página solicitada, del servidor.
 
@@ -146,13 +147,36 @@ Realizar los siguientes módulos de Trailhead:
 
 • Fundamento de la plataforma Salesforce
 
+     •	Get Started with Platform Development
+     •	Dvelop Without Code
+     •	Code with Salesforce Languages
+     •   Extend the Salesforce Platform
+
 • Fundamentos de Apex y .NET
+
+     •	Map .NET Concepts to the Lightning Platform
+     •	Understand Execution Context
+     •	Use Asynchronous Apex
+     •   Debug an Run Diagnostics
 
 • Modelado de datos
 
+     •	Understand Custom & Standard Objects
+     •	Create Object Relationships
+     •	Work with Schema Builder
+
 • Fundamentos y base de datos de Apex
 
+     •	Get Started with Apex
+     •	Use sObjects
+     •	Manipulate Records with DML
+     •   Write SOQL Queries
+     •   Write SOSL Queries
+     
 • Desencadenadores de Apex
+
+     •	Get Started with Apex Triggers
+     •	Bulk Apex Triggers
 
 Liga de Trailhead: https://trailblazer.me/id/marianaperez
 
@@ -161,6 +185,7 @@ Liga de Trailhead: https://trailblazer.me/id/marianaperez
 Explicar que son conceptualmente, qué datos almacenan en forma estándar y cómo se
 relacionan el resto (algunos no se relacionan entre sí) cada uno de los siguientes objetos de
 Salesforce:
+
 **1. Lead.** Prospecto o un cliente potencial
 
    **Datos que almacena:**
@@ -240,9 +265,19 @@ Salesforce:
 
 **7. Quote.** Cotización, registro que muestra los presupuestos de los productos y servicios.
 
-      **Datos que almacena:**
+   **Datos que almacena:**
 
-      •	
+      •	Account id
+
+      •	Contact id
+
+      •	Last reference date
+
+      •	Name
+
+      •	Opportunity id
+
+      •	Price book id
 
 **8.Asset.** Artículo de valor comercial, producto vendido por la empresa o competidor.
 
@@ -286,102 +321,154 @@ Salesforce:
 ### Ejercicio 6
 
 ### Ejercicio 7
-Responder las siguientes preguntas brevemente sobre:
-Soluciones de Salesforce
-A.	¿Qué es Salesforce?
+
+**Responder las siguientes preguntas brevemente sobre:**
+
+**Soluciones de Salesforce**
+
+**A.	¿Qué es Salesforce?**
+
 Solución de gestión de relaciones con clientes que una une empresas y clientes. Es una plataforma relacionada al conjutno de prácticas, estrategias de negocio y tecnologías enficadas en la relación con el cliente. Esta brinda a todos sus departamentos, una vista única y compartida de cada cliente
 
-B.	¿Qué es Sales Cloud?
+**B.	¿Qué es Sales Cloud?**
+
 Software de ventas. Administra leads (clientes potenciales) monitorea resultados y automatiza procesos de ventas con facilidad. Potencia a los representates de ventas spara generar más negocios y más rápido.
 
-C.	¿Qué es Service Cloud?
+**C.	¿Qué es Service Cloud?**
+
 Soluciones de software de servicio al cliente. Perimite que los agentes se conectetn con los clientes para ayudarlos a solucionar los problemas de una manera eficaz. Este sostware puede ayudar a las compañías a optimizar los procesos y las llamadas del equipo de atenión al cliente.
 
-D.	¿Qué es Health Cloud?
+**D.	¿Qué es Health Cloud?**
+
 Softeare el cual proporciona servicios de atención médica, el cual le permite al usuario interactuar más profundamente con su información e historial, a través de cualquier dispositivo.
 
-E.	¿Qué es Marketing Cloud?
-Solución de gestión de campañas de marketing, mediante distintas formas, como son redes sociales o mensajes de email
-Funcionalidades de Salesforce
+**E.	¿Qué es Marketing Cloud?**
 
-A.	¿Qué es un RecordType?
+Solución de gestión de campañas de marketing, mediante distintas formas, como son redes sociales o mensajes de email
+
+
+
+**Funcionalidades de Salesforce**
+
+**A.	¿Qué es un RecordType?**
+
 Determinan los procesos de negocio, los formatos de página y los valores de lista de selección a los que los usuarios tienen acceso. 
 
-B.	¿Qué es un ReportType?
+**B.	¿Qué es un ReportType?**
 
-C.	¿Qué es un Page Layout?
+Representa los metadatos asociados con un tipo de informe personalizado.
 
-D.	¿Qué es un Compact Layout?
+**C.	¿Qué es un Page Layout?**
+
+Diseño de página, el acomodo de los elementos visuales dentro de una página web.
+
+**D.	¿Qué es un Compact Layout?**
+
+Muestra los campos clave de un registro dentro de una aplicación móvil 
+
+**E.	¿Qué es un Perfil?**
+
+Definen cómo acceden los usuarios a objetos y datos y qué pueden hacer en la aplicación
+
+**F.	¿Qué es un Rol?**
+
+Controlan el nivel de visibilidad que tiene un usuario sobre sus datos dentro de la empresa.
+
+**G.	¿Qué es un Validation Rule?**
+
+Verifiacan que los datos ingresados por los usuarios cumplen con los estándares solicitados para poder ser almacenados.
+
+**H.	¿Qué diferencia hay entre una relación Master Detail y Lookup?**
+
+Dentro de Lookup, una vez que es valor está asignado puede ser cambiado, de igual manera si el objeto padre es eliminando, el hijo puede seguir en su función. En cambio, en Master Detail, una vez asignado el valor no puede ser cambiado y al momento de eliminar el objeto padre el objeto hijo también se elimina, pues ya sería inservible 
+
+**I.	¿Qué es un Sandbox?**
+
+Replicas de los datos de la empresa, por lo que las operaciones que se realizan ahí no afectan en la empresa.
+
+**J.	¿Que es un ChangeSet?**
+
+Es utilizada para mandar datos de una organización Salesforce a otra.
+
+**K.	¿Para qué sirve el import Wizard de Salesforce?**
+
+Permite importar datos en ovejos estándar comunes. Es una interfaz sencilla para esfecificar parámetros de configuración, fuentas de datos y asifnaciones de campos
+
+**L.	¿Para qué sirve la funcionalidad Web to Lead?**
+
+Formularios creados para capturar la infomación de los visitantes dentro de tu página web.
+
+**M.	¿Para qué sirve la funcionalidad Web to Case?**
+
+Sirve para recopilar solicitudes de atención al cliente directamente desde el sitio web de la empresa, apartir de los formularios crados.
+
+**N.	¿Para qué sirve la funcionalidad Omnichannel?**
+
+Le asigna las solicitudes de los usuarios a los trabajadores más calificados y disponibles dentro de soporte
+
+**O.	¿Para qué sirve la funcionalidad Chatter?**
+
+Aplicación de colaboración en tiempo real. Este les permite a sus usuarios compartir información y colaborar en distintos proyectos.
 
 
-E.	¿Qué es un Perfil?
+**Conceptos generales**
 
-F.	¿Qué es un Rol?
+**A.	¿Qué significa SaaS? ¿Salesforce es Saas?**
 
-
-G.	¿Qué es un Validation Rule?
-
-H.	¿Qué diferencia hay entre una relación Master Detail y Lookup?
-
-
-I.	¿Qué es un Sandbox?
-
-J.	¿Que es un ChangeSet?
-
-
-K.	¿Para qué sirve el import Wizard de Salesforce?
-
-L.	¿Para qué sirve la funcionalidad Web to Lead?
-
-
-M.	¿Para qué sirve la funcionalidad Web to Case?
-
-N.	¿Para qué sirve la funcionalidad Omnichannel?
-
-
-O.	¿Para qué sirve la funcionalidad Chatter?
-
-Conceptos generales
-A.	¿Qué significa SaaS? ¿Salesforce es Saas?
 Software as a Service. Es una forma de disponer de software de tecnología por medio de Internet, sin la necesidad de instalar, mantener y actualizar hardwares o softwares, solo es neceesaria su conexión a Internet. Saleforce es un ejemplo de Saas.
 
-B.	¿Que significa que una solución sea Cloud?
+**B.	¿Que significa que una solución sea Cloud?**
+
 La información se aloja en servidores externos a los de la empresa a los que se puede acceder en cualquier momento mediante el Internet. Software estandarizado que se configura en función de las necesidades del cliente.
 
-C.	¿Que significa que una solución sea On-Premise?
+**C.	¿Que significa que una solución sea On-Premise?**
+
 Sistemas que son instalados en los servidores y dispositivos locales en la propia empresa. Lo cual permite tener aceso físico a la infomación y control directo a la configuración manejo y seguridad de esos datos
 
-D.	¿Que es un pipeline de ventas?
+**D.	¿Que es un pipeline de ventas?**
+
 Mapa de actividades diarias, donde se muestra cada una de las etapas del proceso de ventas en alguna empresa. Este va desde que el cliente lo recibe hasta el cierre del negocio.
 
-E.	¿Que es un funnel de ventas?
+**E.	¿Que es un funnel de ventas?**
+
 Sistema para atraer usuarios, convertirlos en leads para finalmente transformarlos en clientes dentro de la empresa. Este proceso sirve para generar confianza con los clientes potenciales.
 
-F.	¿Qué significa Customer Experience?
+**F.	¿Qué significa Customer Experience?**
+
 Hace referencia a la experiencia basada en las interacciones que el cliente vivió dentro de una empresa.  Estos pueden ser observaciones tanto positivas como negativas
 
-G.	¿Qué significa omnicanalidad?
+**G.	¿Qué significa omnicanalidad?**
+
 Forma de comunicación utilizado por las empresas para tener una comunicación más eficiente con los clientes. Se busca mantener una relación con los clientes, en donde se pueda ir adaptando al medio que mejor le convenga  
 
-H.	¿Qué significa que un negocio sea B2B?
+**H.	¿Qué significa que un negocio sea B2B?**
+
 Business yo business. Modelos de negocio en los que las transacciones de bienes o la prestación de servicios se producen entre dos empresas, por lo tanto, se relaciona principalemte con el comercio mayorista 
 
-I.	¿Qué significa que un negocio sea B2C?
+**I.	¿Qué significa que un negocio sea B2C?**
+
 Business to Consumer. Hace referencia a empresas que ofrecen productos o servicios a personas. Está orientado a destacar los beneficios personales que aporta el producto a los consumidores.
 
-J.	¿Qué es un KPI?
+**J.	¿Qué es un KPI?**
+
 Key Performance Indicator. Dato que nos sirve para tomar decisiones. Manera de medir el desempeño de las empresas, unidades de negocios, proyectos o personal en relación con sus metas y objetivos dentro de la empresa
 
-K.	¿Qué es una API y en qué se diferencia de una Rest API?
+**K.	¿Qué es una API y en qué se diferencia de una Rest API?**
 
-L.	¿Qué es un Proceso Batch?
+Una API es un conjunto de definiciones y protocolos para el desarrollo de las aplicaciones, la cual, a través de un conjunto de reglas, permite la comunicación entre dos aplicaciones de software, mientras que una Rest API, determina la estructura de la API. Se obliga a un cierto conjunto de reglas al construir la API
+
+**L.	¿Qué es un Proceso Batch?**
 
 Ejecución de un programa, sin la necesidad de la supervisión de algún usuario.
 
-M.	¿Qué es Kanban?
+**M.	¿Qué es Kanban?**
+
 Metodología para un sistema de producción efectivo y eficiente, su objetivo principal el gestionar de manera general como se van completando las tareas.
 
-N.	¿Qué es un ERP? ¿Salesforce es un ERP?
+**N.	¿Qué es un ERP? ¿Salesforce es un ERP?**
+
+Hace referencia al tipo de software que usan las organizaciones para administrar las actividades empresariales diarias. Unifican los procesos de negocios y habilitan el flujo de datos entre ellos. Saleforce no se considera un ERP, ya que están más enfocados en lo que es la atención al cliente.
+
 
 
 
