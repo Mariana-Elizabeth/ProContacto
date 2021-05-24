@@ -1,7 +1,7 @@
 # ProContacto
 ## Evaluación Práctica
 ### Ejercicio 2
-1.	¿Qué es un servidor HTTP?
+**1.	¿Qué es un servidor HTTP?**
 
 •	Tiene muchas partes encargadas del control sobre cómo tienen acceso los usuarios a los archivos. 
 
@@ -9,7 +9,7 @@
 
 •	Protocolo que permite enviar documentos de un lado a otro en la web 
 
-2.	¿Qué son los verbos HTTP? Mencionar los más conocidos
+**2.	¿Qué son los verbos HTTP? Mencionar los más conocidos**
 
 •	Se utilizan para indicar la acción que se desea realizar. 
 
@@ -27,14 +27,14 @@ Algunos de los más conocidos son:
 
 •	Patch. Modificaciones parciales a recursos. A diferencia de PUT, es que PUT es un remplazo total de un objeto, y con PATCH cambiamos solo algunos atributos.
 
-3.	 ¿Qué es un request y un response en una comunicación HTTP? ¿Qué son
-los headers?
+**3.	 ¿Qué es un request y un response en una comunicación HTTP? ¿Qué son
+los headers?**
 
 •	El cliente envía una petición (request) al servidor, este ejecuta y devuelve en formato html una respuesta (response). 
 
 •	Las cabeceras http permiten al cliente y al servidor enviar información adicional junto a una petición o respuesta. 
 
-4.	¿Qué es un queryString? (En el contexto de una url)
+**4.	¿Qué es un queryString? (En el contexto de una url)**
 
 •	Una vez que analizamos un objeto que viene de una URL, queryString  va ser un módulo que nos va a permitir proporcionar el manejo óptimo de esos objetos de URL para convertirlos a consultas de cadenas de texto.
 
@@ -42,56 +42,56 @@ los headers?
 
 •	Es la parte de una URL que contiene los datos que deben pasar a las aplicaciones web.
 
-5.	¿Qué es el responseCode? ¿Qué significado tiene los posibles valores
-devueltos?
+**5.	¿Qué es el responseCode? ¿Qué significado tiene los posibles valores
+devueltos?**
 
 •	Estos indican si se ha completado satisfactoriamente una solicitud de HTTP especifica. El servidor recibe y procesa la solicitus, y luego devuelve los recursos relevantes junto con un encabezado HTTP.
 
 •	Se agrupan en 5 clases:
 
-   o	Respuestas informativas (100-199). Indican que la solicitud iniciada por el navegador continúa
+   o	**Respuestas informativas (100-199).** Indican que la solicitud iniciada por el navegador continúa
     
-   o	Respuestas satisfactorias (200-299). Cuando la solicitud del navegador fue recibida, entendida y procesada por el servidor. 
+   o	**Respuestas satisfactorias (200-299).** Cuando la solicitud del navegador fue recibida, entendida y procesada por el servidor. 
     
-   o	Redirecciones (300-399). Cuando un nuevo recurso ha sido sustituido por el recurso solicitado.
+   o	**Redirecciones (300-399).** Cuando un nuevo recurso ha sido sustituido por el recurso solicitado.
     
-   o	Errores de los clientes (400-499). Códigos de error del cliente que indican que hubo un problema con la solicitud.
+   o	**Errores de los clientes (400-499).** Códigos de error del cliente que indican que hubo un problema con la solicitud.
     
-   o	Errores de los servidores (500-599). Códigos de error del servidor que indican que la solicitud fue aceptada, pero que un error en el servidor impidió que se compliera.
+   o	**Errores de los servidores (500-599).** Códigos de error del servidor que indican que la solicitud fue aceptada, pero que un error en el servidor impidió que se compliera.
 
-6.	¿Cómo se envía data en un Get y cómo en un POST?
+**6.	¿Cómo se envía data en un Get y cómo en un POST?**
 
 
-7.	¿Qué verbo http utiliza el navegador cuando accedemos a una página?
+**7.	¿Qué verbo http utiliza el navegador cuando accedemos a una página?**
 
 •	Get
 
-8.	Explicar brevemente qué son las estructuras de datos JSON y XML dando
-ejemplo de estructuras posibles. 
+**8.	Explicar brevemente qué son las estructuras de datos JSON y XML dando
+ejemplo de estructuras posibles.**
 
-•	JSON 
+•	**JSON**
 
-  o	Es un formato basado en texto estándar para representar datos estructurados en la sintaxis de objetos de JavaScript. Comúnmente utilizado para transmitir datos en aplicaciones web. Son útiles cuando se quiere transmitir datos a través de una red. 
+   o	Es un formato basado en texto estándar para representar datos estructurados en la sintaxis de objetos de JavaScript. Comúnmente utilizado para transmitir datos en aplicaciones web. Son útiles cuando se quiere transmitir datos a través de una red. 
 
-  o	Está constituido por una colección de pares de nombre y valor o por una lista ordenaad de valores. Cada elemento u objeto comienza por una llave y termina con otra. Cada nombre está seguido de dos puntos y los elementos que están en la misma rama del árbol están separadaos por coma.
+   o	Está constituido por una colección de pares de nombre y valor o por una lista ordenaad de valores. Cada elemento u objeto comienza por una llave y termina con otra. Cada nombre está seguido de dos puntos y los elementos que están en la misma rama del árbol están separadaos por coma.
   
-  o Ejemplo:  
+  o **Ejemplo:**  
   ![JSON](https://user-images.githubusercontent.com/84425580/118745657-3e5fe880-b81c-11eb-92b3-83e8bedd6a26.PNG)
 
-•	XML 
+•	**XML**
 
-  o	Uno de los formatos más utilizados para el intercambio de información entre sistemas. Está basado en texto para representar información estructurada: datos, documentos, configuración, etc…
+   o	Uno de los formatos más utilizados para el intercambio de información entre sistemas. Está basado en texto para representar información estructurada: datos, documentos, configuración, etc…
 
-  o	Para diseñar lenguajes de marcado, que permite definir etiquetas personalizadas para descripción y organización de datos. Representa información estructurada en la web, de modo que esta información puede ser almacenada, transmitida, procesada, visualizada e impresa, por diversos tipos de aplicaciones y dipositivos.
+   o	Para diseñar lenguajes de marcado, que permite definir etiquetas personalizadas para descripción y organización de datos. Representa información estructurada en la web, de modo que esta información puede ser almacenada, transmitida, procesada, visualizada e impresa, por diversos tipos de aplicaciones y dipositivos.
 
-  o   Ejemplos:
+  o   **Ejemplos:**
   
   ![XML1](https://user-images.githubusercontent.com/84425580/118745698-5cc5e400-b81c-11eb-8755-85d97d64df94.PNG)
   
   ![XML2](https://user-images.githubusercontent.com/84425580/118745789-98f94480-b81c-11eb-8123-42251a1fe06a.jpg)
 
 
-9.	Explicar brevemente el estándar SOAP
+**9.	Explicar brevemente el estándar SOAP**
 
 •	Se enfoca en acceder a operaciones con nombre, cada operación implementa alguna lógica de negocios.
 
@@ -102,7 +102,7 @@ ejemplo de estructuras posibles.
 •	Es un sucesor de XML-RPC, es muy similar, pero describe una forma estándar de comunicación.
 
 
-10.	Explicar brevemente el estándar REST Full
+**10.	Explicar brevemente el estándar REST Full**
 
 •	“Transferencia de representación de estado”. Considerada una técnica de arquitectura de software, es decir, un conjunto de principios y patrones de comunicación que ayudan a crear una forma de pensar y construir APIs.
 
@@ -155,6 +155,137 @@ Realizar los siguientes módulos de Trailhead:
 • Desencadenadores de Apex
 
 Liga de Trailhead: https://trailblazer.me/id/marianaperez
+
+### Ejercicio 5
+
+Explicar que son conceptualmente, qué datos almacenan en forma estándar y cómo se
+relacionan el resto (algunos no se relacionan entre sí) cada uno de los siguientes objetos de
+Salesforce:
+**1. Lead.** Prospecto o un cliente potencial
+
+   **Datos que almacena:**
+
+      •	Company
+
+      •	Created By
+
+      •	Las Modified By
+
+      •	Lead Owner
+
+      •	Lead Status
+
+      •	Name
+
+**2. Account.** Cuenta individual, ya sea organización o persona involucrada, como clientes, socios, etc..
+
+   **Datos que almacena:**
+
+      •	Account Name
+
+      •	Account Owner
+
+      •	Created By
+
+      •	Last Modified By
+
+**3. Contact.** Contacto, persona asociada con una cuenta (Account).
+
+   **Datos que almacena:**
+
+      •	Contact Owner
+
+      •	Created By
+
+      •	Last Modified By
+
+**4. Opportunity**. Oportunidad, una venta o un trato pendiente.
+
+   **Datos que almacena:**
+
+      •	Close Date
+
+      •	Created By
+
+      •	Forecast Category
+
+      •	Last Modified By
+
+      •	Opportunity Name
+
+      •	Opportunity Owner
+
+      •	Probability (%)
+
+**5. Product.** Producto que vende la empresa.
+
+   **Datos que almacena:**
+
+      •	Created By
+
+      •	Last Modified By
+
+      •	Product Name
+
+
+**6. PriceBook**. Lista de precios de los productos que vende la empresa.
+
+   **Datos que almacena:**
+
+      •	Created By
+
+      •	Last Modifier By
+
+      •	Price Book Name
+
+**7. Quote.** Cotización, registro que muestra los presupuestos de los productos y servicios.
+
+      **Datos que almacena:**
+
+      •	
+
+**8.Asset.** Artículo de valor comercial, producto vendido por la empresa o competidor.
+
+   **Datos que almacena:**
+
+      •	Asset Name
+
+      •	Asset Owner
+
+      •	Created By
+
+      •	Has Lifecycle Management
+
+      •	Last Modified By
+
+**9. Case.** Caso, problema o algún problema con un cliente
+
+   **Datos que almacena:**
+
+      •	Busines Hours
+
+      •	Case Number
+
+      •	Case Owner
+
+      •	Created By
+
+      •	Date/Tome Opened
+
+**10. Article.**
+
+   **Datos que almacena:**
+
+   •	
+   
+**Diagrama UML de relaciones:**
+
+![Relaciones](https://user-images.githubusercontent.com/84425580/119340107-aae14a00-bc57-11eb-9e37-9f0928d20371.png)
+
+
+### Ejercicio 6
+
+### Ejercicio 7
 
 
 
