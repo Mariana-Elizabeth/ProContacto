@@ -324,7 +324,7 @@ Salesforce:
 
 **Responder las siguientes preguntas brevemente sobre:**
 
-**Soluciones de Salesforce**
+***Soluciones de Salesforce***
 
 **A.	¿Qué es Salesforce?**
 
@@ -348,7 +348,7 @@ Solución de gestión de campañas de marketing, mediante distintas formas, como
 
 
 
-**Funcionalidades de Salesforce**
+***Funcionalidades de Salesforce***
 
 **A.	¿Qué es un RecordType?**
 
@@ -411,7 +411,7 @@ Le asigna las solicitudes de los usuarios a los trabajadores más calificados y 
 Aplicación de colaboración en tiempo real. Este les permite a sus usuarios compartir información y colaborar en distintos proyectos.
 
 
-**Conceptos generales**
+***Conceptos generales***
 
 **A.	¿Qué significa SaaS? ¿Salesforce es Saas?**
 
