@@ -320,6 +320,67 @@ Salesforce:
 
 ### Ejercicio 6
 
+Desarrollar un trigger para que cuando un usuario Modifica o Crea un contacto de
+Salesforce completando el campo generado el punto B con el ID del punto A, se
+invoque al Web Service con el idprocontacto obtenga los datos del nombre y el
+email de la respuesta y actualice el campo email del contacto.
+
+**Clase**
+
+@RestResource(urlMapping='/Contacts/*')
+
+global with sharing class WebServices {
+
+   
+   // Clase utilizada para crear la respuesta en formato JSON Del Web Services que piden
+   
+   global class API_Response{
+   
+        String codigo;
+        String nombre;
+        String correo;
+
+   API_Response(String codigo, String nombre, String correo){
+   
+            this.codigo= codigo;
+            this.nombre =nombre;
+            this.correo= correo;
+        }
+    }
+    
+   @HttpGet
+    global static void getContact(){
+    
+        list<API_Response> response = new List<API_Response>();
+        RestRequest request = RestContext.request;
+        String reqID = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1);
+        List<Contact> result =  [SELECT Id
+                                FROM Contact
+                                WHERE Id = :reqID];
+        
+        if (result.isEmpty() )
+            response.add( new API_Response('ERROR', 'Contacto no encontrado', reqID));
+        else{
+            //Posicion Email
+            response.add(new API_Response('OK',String.valueOf(result.get(1)), ''));       
+        }
+        
+    }
+}
+
+ 
+**Trigger**
+   
+trigger TriggerContact on Contact (before insert, after update) {
+   
+    for(Contact c : Trigger.New) {
+   
+            WebServices.getContact();
+   
+        }  
+   
+}
+
 ### Ejercicio 7
 
 **Responder las siguientes preguntas brevemente sobre:**
